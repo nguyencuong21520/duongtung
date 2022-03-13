@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* From cssbuttons.io by @adamgiebl */
+.bar {
+    width: 190px;
+    height: 254px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+                -15px -15px 30px #ffffff;
+   }
+/* From cssbuttons.io by @adamgiebl */
+
+.flight {
+    width: 190px;
+    height: 254px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+                -15px -15px 30px #ffffff;
+   }
+/* From cssbuttons.io by @adamgiebl */
+.page {
+    width: 190px;
+    height: 254px;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+   }
+   
+   .card__content {
+    background: rgb(5, 6, 45);
+    border-radius: 17px;
+    width: 100%;
+    height: 100%;
+   }
+.bar{
+    width: 100%;
+    height: 85px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+.bar .logo {
+    height: 70px;
+    width: 20%;
+    overflow: hidden;
+}
+.bar .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.bar .name{
+    height: 70px;
+    width: 30%;
+
+
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+.bar .mucluc{
+    height: 70px;
+    width: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bar .mucluc .muc{
+    height: 65px;
+    width: 23%;
+    border: solid;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.bar .mucluc .muc a {
+    color: #111;
+    text-align: center;
+
+}
+.page1{
+    width: 100%;
+    height: 86vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+.page1 .ads{
+    width: 68%;
+    height: 99%;
+    background-image: url(./img/san-ve-may-bay0-dong-1-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page1 .login{
+    width: 30%;
+    height: 99%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.flight {
+    width: 100%;
+    height: auto;
+
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  gap: 10px;
+}
+
+.flight .flight-item {
+    background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  transition: 0.5s;
+
+}
+.hide{
+    display: none !important;
+}
+.flight .flight-item:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,0.35);
+    transition: 0.5s;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background: url(./img/sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: #111;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+footer .container .noi-dung{
+    margin-right: 30px;
+}
+footer  .container .noi-dung.about{
+    width:40%;
+}
+footer .container .noi-dung.about h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+footer .container .noi-dung.about h2:before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+footer .container .noi-dung.about p{
+    color: #999;
+}
+footer .container .noi-dung-contact{
+    color: #999;
+}
+footer .container ul li a{
+    color: #999;
+}
+/*Thiết Lập Cho Thành Phần Icon Mạng Xã Hội*/
+.social-icon{
+    margin-top: 20px;
+    display: flex;
+    
+}
+.social-icon li {
+    list-style: none;
+}
+.social-icon li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.social-icon li a:hover{
+    background: #f00;
+}
+.social-icon li a .fa{
+    color: #fff;
+    font-size: 20px;
+}
+.social-icon li a img{
+    height: 100%;
+}
+.links h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+footer .container .form__field{
+    height: 40px;
+    margin-right: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+}
+.social-icon img{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
